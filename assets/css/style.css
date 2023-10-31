@@ -1,0 +1,30 @@
+.banner {
+    min-width: 100vw;
+    height: 500px;
+    background: url('../images/banner.png') no-repeat center;
+    background-size: cover;
+}
+
+.banner-content {
+    margin: 1rem auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom, rgb(49, 140, 245), rgb(21, 108, 221));
+}
+
+.banner p {
+    color: #FFF;
+}
+
+button {
+    background: transparent;
+    padding: 1rem 2rem;
+    color: blue;
+    border: 1px solid;
+    text-transform: uppercase;
+}
