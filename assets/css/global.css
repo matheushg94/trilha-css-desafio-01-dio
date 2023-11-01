@@ -1,0 +1,17 @@
+@import url('variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    font: 400 16px var(--font);
+    background-color: #000;
+    color: #FFF;
+    overflow-x: hidden;
+}
